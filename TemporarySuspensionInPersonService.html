@@ -1,13 +1,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <style>
-#Div-ForPastoralNeed
+#Div-TempoarySuspensionInPersonService
 {
     position: absolute;
     right: 0px;
     z-index: 9999;
     bottom: 0px;
-    background-color: #00000080;
+    background-color: #ffb100d1;
+    text-shadow: 2px 2px #000000;
     padding: 7px 20px 15px 10px;
     color: white;
     font-size: 20px;
@@ -15,15 +16,15 @@
 }
 </style>
 <style>
-#Div-ForPastoralNeed a{color: #daefff;}
-#Div-ForPastoralNeed a:hover {color: #00ffb8;}
+#Div-TempoarySuspensionInPersonService a{color: #daefff;}
+#Div-TempoarySuspensionInPersonService a:hover {color: #00ffb8;}
 </style>
 <style>
 @media (pointer:none), (pointer:coarse)
 {
 	@media screen and (orientation:portrait)
 	{
-        #Div-ForPastoralNeed
+        #Div-TempoarySuspensionInPersonService
         {
             padding: 6px 5px 10px 5px;
             font-size: 8px;
@@ -31,7 +32,7 @@
 	}
 	@media screen and (orientation:landscape)
 	{
-        #Div-ForPastoralNeed
+        #Div-TempoarySuspensionInPersonService
         {
             padding: 7px 20px 15px 10px;
             font-size: 20px;
@@ -43,19 +44,17 @@
 <script type="text/javascript">
     $(function()
     {
-        $(".bannerwrapper").append($("#Div-ForPastoralNeed"));
-        $("#Div-ForPastoralNeed").css("display","unset");
+        //$(".bannerwrapper").append($("#Div-TempoarySuspensionInPersonService"));
+        $("#Div-TempoarySuspensionInPersonService").css("display","unset");
     });
     $(document).ready(function()
     {
-        $(".bannerwrapper").append($("#Div-ForPastoralNeed"));
+        //$(".bannerwrapper").append($("#Div-TempoarySuspensionInPersonService"));
     });
 </script>
 
-<div id="Div-ForPastoralNeed" style="display: none;">
-    <i>For Pastoral Need</i>
+<div id="Div-TempoarySuspensionInPersonService" style="display: none;">
+    Temporary Suspension of In-Person
     <br>
-    <tx>Call : <a href="tel:+6562598644">+65 6259 8644</a></tx>
-    <br>
-    <tx>Email : <a href="mailto:info@tpmc.com">info@tpmc.com</a></tx>
+    Services until 13 June 2021
 </div>
