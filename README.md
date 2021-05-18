@@ -1,5 +1,5 @@
 # TPMC
-change //$(".bannerwrapper").append($("#Div-xxxxxx"));
-to $(".bannerwrapper").append($("#Div-xxxxxx"));
+change //$(".bannerwrapper").append($("#Div-xxxxxx"));  << deverloper side testing
+to $(".bannerwrapper").append($("#Div-xxxxxx")); << server side 
 
-for running in your service 
+for running in your service
