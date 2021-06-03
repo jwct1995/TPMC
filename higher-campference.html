@@ -12,8 +12,6 @@
     #divBtn
     {
         display: block;
-        position: fixed;
-        bottom: 0px;
     }
     #divMain{width:80%;}
     [name="btn"]
@@ -37,6 +35,11 @@
 
     @media (pointer:none), (pointer:coarse)
     {
+        #divBtn
+        {
+            position: fixed;
+            bottom: 0px;
+        }
         center{background-color: red;}
         @media screen and (orientation:portrait)
         {
