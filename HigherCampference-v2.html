@@ -11,6 +11,31 @@
 <body>
 
     <style>
+    #divToTop
+    {
+        position: fixed;
+        right: 3%;
+        bottom: 3%;
+        z-index: 99;
+    }
+    #divToTop a
+    {
+        text-decoration: none;
+        background-color: black;
+        padding: 6px;
+        color: white;
+    }
+    #divToTop a:hover{background-color: #9e9e9e;color: black;}
+
+    h2
+    {
+        width: 100%;
+        background: #b59cb5;
+        color: white;
+        font-weight: bold;
+        line-height: 40px;
+        text-align: center;
+    }
     iframe{ width:70%; height:300px;}
     #divMain{width:80%;}
     [name="btn"]
@@ -45,6 +70,7 @@
             #mobilev1{display: inline-table;}
             #mobilev1{position: fixed;left:0px;bottom: 0px;width: 100%;}
             #mobilev1 td{ width: 50%; background-color: #B59CB5;}
+            #divToTop{bottom: 10%;}
         }
         @media screen and (orientation:landscape)
         {
@@ -53,6 +79,7 @@
             #mobilev2{display: inline-table;}
             #mobilev2{position: fixed;left:0px;bottom: 0px;width: 100%;}
             #mobilev2 td{width: 25%;background-color: #B59CB5;}
+            #divToTop{bottom: 7%;}
         }
     }
     </style>
@@ -61,6 +88,9 @@
             <!--ignore del start-->
             <img src="https://occ-0-58-64.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZ7OA8_K1ZylWs3LWGj4o7WR-_rapH8pQbqE8LLKNZQhVQfsxhC562bx32ni1jF72r-5DT4K5Wqbo7d5J-wClDfv7_CxzGj9M_aM.png?r=f4a" style="width:20%;">
             <!--ignore del end-->
+            <div id="divToTop">
+                <a href="#divMain">To Top</a>
+            </div>
             <div id="divBtn" align="center">
                 <div id="pc">
                     <a id="btnH" href="#divHigher" name="btn">Higher</a>
